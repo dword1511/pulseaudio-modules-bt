@@ -1,2 +1,0 @@
-libpulsecommon 12.2 libpulse0 (>= 12.2), libpulse0 (<< 12.3)
-libpulsecore 12.2 pulseaudio (>= 12.2), pulseaudio (<< 12.3)

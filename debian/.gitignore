@@ -4,3 +4,4 @@
 pulseaudio-module-bluetooth
 debhelper-build-stamp
 files
+shlibs.local

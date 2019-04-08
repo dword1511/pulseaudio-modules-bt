@@ -4,9 +4,9 @@ Priority: optional
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
 Build-Depends: debhelper-compat (= 11),
     dh-exec,
+    pkg-config,
     dpkg-dev (>= 1.17.14),
-    libpulse-dev (>= 12.2),
-    libpulse-dev (<< 12.3),
+    libpulse-dev,
     libbluetooth-dev (>= 5.0) [linux-any],
     libsbc-dev [linux-any],
     libavcodec-dev (>= 7:4.0),
@@ -15,9 +15,9 @@ Build-Depends: debhelper-compat (= 11),
     libsystemd-dev [linux-any],
 Standards-Version: 4.2.1
 Rules-Requires-Root: no
-Vcs-Browser: https://github.com/EHfive/pulseaudio-modules-bt
-Vcs-Git: https://github.com/EHfive/pulseaudio-modules-bt.git
-Homepage: https://github.com/EHfive/pulseaudio-modules-bt
+Vcs-Browser: https://github.com/dword1511/pulseaudio-modules-bt
+Vcs-Git: https://github.com/dword1511/pulseaudio-modules-bt.git
+Homepage: https://github.com/dword1511/pulseaudio-modules-bt
 
 Package: pulseaudio-module-bluetooth
 Architecture: linux-any

@@ -1,0 +1,2 @@
+libpulsecommon PA_MAJORMINOR libpulse0 (>= PA_MAJORMINOR), libpulse0 (<< PA_MAJORMINOR_NEXT)
+libpulsecore PA_MAJORMINOR pulseaudio (>= PA_MAJORMINOR), pulseaudio (<< PA_MAJORMINOR_NEXT)
