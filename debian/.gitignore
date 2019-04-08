@@ -1,0 +1,6 @@
+.debhelper
+*.log
+*.substvars
+pulseaudio-module-bluetooth
+debhelper-build-stamp
+files

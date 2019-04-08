@@ -1,0 +1,11 @@
+pulseaudio-module-bluetooth (1:1.1-2) unstable; urgency=medium
+
+  * Update pulseaudio requirement
+
+ -- Chi Zhang <zhangchi866@gmail.com>  Mon, 08 Apr 2019 10:40:36 -0700
+
+pulseaudio-module-bluetooth (1:1.1-1) unstable; urgency=medium
+
+  * Initial build from git
+
+ -- Huang-Huang Bao <i@eh5.me>  Thu, 14 Feb 2019 20:05:41 -0300
