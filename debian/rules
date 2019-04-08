@@ -20,3 +20,7 @@ PA_MAJORMINOR_NEXT      := $(PA_MAJOR).$(PA_MINOR_NEXT)
 override_dh_makeshlibs:
 	sed -e 's/PA_MAJORMINOR_NEXT/$(PA_MAJORMINOR_NEXT)/g' -e 's/PA_MAJORMINOR/$(PA_MAJORMINOR)/g' debian/shlibs.local.in > debian/shlibs.local
 	dh_makeshlibs
+
+override_dh_clean:
+	rm -f debian/shlibs.local
+	dh_clean
